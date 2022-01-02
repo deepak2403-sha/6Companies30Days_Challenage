@@ -23,7 +23,6 @@ public class RunLengthEncoding {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str = "wwwwaaadexxxxxxywww";
-//        System.out.println(sol(str));
         System.out.println(printRLE(str));
 	}
 
