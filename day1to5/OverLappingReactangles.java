@@ -1,20 +1,20 @@
 package day1to5;
 
 public class OverLappingReactangles {
-	static class point {
-		int x, y;
-	}
-
-	static boolean check(point l1, point r1, point l2, point r2) {
-		// opposite can't overlap
-		if (l1.x == r1.x || l1.y == r1.y || l2.x == r2.x || l2.y == r2.y)
-			return false;
-		if (l1.x >= r2.x || l2.x >= r1.x)
-			return false;
-		if (r1.y >= l1.y || r2.y >= l2.y)
-			return false;
-		return true;
-	}
+//	static class point {
+//		int x, y;
+//	}
+//
+//	static boolean check(point l1, point r1, point l2, point r2) {
+//		// opposite can't overlap
+//		if (l1.x == r1.x || l1.y == r1.y || l2.x == r2.x || l2.y == r2.y)
+//			return false;
+//		if (l1.x >= r2.x || l2.x >= r1.x)
+//			return false;
+//		if (r1.y >= l1.y || r2.y >= l2.y)
+//			return false;
+//		return true;
+//	}
 	
     static int doOverlap(int l1[], int r1[], int l2[], int r2[]) {
         // code here
